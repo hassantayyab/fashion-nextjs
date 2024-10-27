@@ -17,7 +17,7 @@ export default function Subscribe() {
               placeholder="Enter your email here"
               className="absolute inset-0 rounded-xl bg-white p-4 pr-32 text-base font-medium text-gray-950 outline-none placeholder:text-gray-400"
             />
-            <Button className="absolute inset-y-1.5 right-1.5 px-6 py-1.5 text-base">
+            <Button className="absolute inset-y-1.5 right-1.5 sm:px-6 sm:py-1.5">
               Send
             </Button>
           </div>
