@@ -6,7 +6,9 @@ export default function Subscribe() {
       <div className="container-fs">
         <div className="mx-auto max-w-2xl py-32 text-center">
           <div>
-            <h3 className="">JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h3>
+            <h3 className="text-pretty uppercase">
+              Join shopping community to get monthly promo
+            </h3>
             <p className="mb-8 mt-2 text-base font-normal">
               Type your email down below and be young wild generation
             </p>
@@ -17,7 +19,7 @@ export default function Subscribe() {
               placeholder="Enter your email here"
               className="absolute inset-0 rounded-xl bg-white p-4 pr-32 text-base font-medium text-gray-950 outline-none placeholder:text-gray-400"
             />
-            <Button className="absolute inset-y-1.5 right-1.5 sm:px-6 sm:py-1.5">
+            <Button className="absolute inset-y-1.5 right-1.5 sm:px-6 sm:py-1.5 sm:font-normal">
               Send
             </Button>
           </div>
